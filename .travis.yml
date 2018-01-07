@@ -29,3 +29,4 @@ jobs:
     - stage: test
       script: bundle exec rspec
     - script: bundle exec cucumber
+    - script: cd pgq-processors && bundle exec rspec && cd ..
